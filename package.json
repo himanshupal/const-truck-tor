@@ -1,0 +1,17 @@
+{
+  "name": "const-truck-tor",
+  "packageManager": "yarn@3.3.1",
+  "author": {
+    "name": "Himanshu Pal",
+    "email": "mailtohimanshupal@gmail.com"
+  },
+  "repository": {
+    "url": "git@github.com:himanshupal/const-truck-tor.git"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@openzeppelin/contracts": "^4.8.2",
+    "ethers": "^5",
+    "hardhat": "^2.13.0"
+  }
+}
