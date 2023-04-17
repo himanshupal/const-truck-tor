@@ -736,10 +736,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openzeppelin/contracts@npm:^4.8.2":
-  version: 4.8.2
-  resolution: "@openzeppelin/contracts@npm:4.8.2"
-  checksum: 1d362f0b9c880549cb82544e23fb70270fbbbe24a69e10bd5aa07649fd82347686173998ae484defafdc473d04004d519f839e3cd3d3e7733d0895b950622243
+"@openzeppelin/contracts@npm:^4.8.3":
+  version: 4.8.3
+  resolution: "@openzeppelin/contracts@npm:4.8.3"
+  checksum: aea130d38d46840c5cbe3adbaa9a7ac645e4bd66ad3f3baf2fa78588c408d1a686170b3408c9e2e5e05530fba22ecdc00d7efb6b27852a8b29f91accbc0af255
   languageName: node
   linkType: hard
 
@@ -1509,14 +1509,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"console-table-printer@npm:^2.9.0":
-  version: 2.11.1
-  resolution: "console-table-printer@npm:2.11.1"
+"const-truck-tor@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "const-truck-tor@workspace:."
   dependencies:
-    simple-wcswidth: ^1.0.1
-  checksum: 1c5ec6c5edb8f454ac78ce2708c96b29986db4c1f369b32acc1931f87658a65984a8cf8731ca548dea670ff04119c740a7d658eeba9633d0202983c71d957096
-  languageName: node
-  linkType: hard
+    "@nomiclabs/hardhat-ethers": ^2.2.2
+    "@openzeppelin/contracts": ^4.8.3
+    ethers: ^5
+    hardhat: ^2.13.0
+  languageName: unknown
+  linkType: soft
 
 "cookie@npm:^0.4.1":
   version: 0.4.2
@@ -2024,17 +2026,6 @@ __metadata:
   version: 4.2.11
   resolution: "graceful-fs@npm:4.2.11"
   checksum: ac85f94da92d8eb6b7f5a8b20ce65e43d66761c55ce85ac96df6865308390da45a8d3f0296dd3a663de65d30ba497bd46c696cc1e248c72b13d6d567138a4fc7
-  languageName: node
-  linkType: hard
-
-"hardhat-storage-layout@npm:^0.1.7":
-  version: 0.1.7
-  resolution: "hardhat-storage-layout@npm:0.1.7"
-  dependencies:
-    console-table-printer: ^2.9.0
-  peerDependencies:
-    hardhat: ^2.0.3
-  checksum: 8d27d6b16c1ebdffa032ba6b99c61996df4601dcbaf7d770c474806b492a56de9d21b4190086ab40f50a3a1f2e9851cc81034a9cfd2e21368941977324f96fd4
   languageName: node
   linkType: hard
 
@@ -2811,18 +2802,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"multicall4@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "multicall4@workspace:."
-  dependencies:
-    "@nomiclabs/hardhat-ethers": ^2.2.2
-    "@openzeppelin/contracts": ^4.8.2
-    ethers: ^5
-    hardhat: ^2.13.0
-    hardhat-storage-layout: ^0.1.7
-  languageName: unknown
-  linkType: soft
-
 "nanoid@npm:3.3.3":
   version: 3.3.3
   resolution: "nanoid@npm:3.3.3"
@@ -3337,13 +3316,6 @@ __metadata:
   version: 3.0.7
   resolution: "signal-exit@npm:3.0.7"
   checksum: a2f098f247adc367dffc27845853e9959b9e88b01cb301658cfe4194352d8d2bb32e18467c786a7fe15f1d44b233ea35633d076d5e737870b7139949d1ab6318
-  languageName: node
-  linkType: hard
-
-"simple-wcswidth@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "simple-wcswidth@npm:1.0.1"
-  checksum: dc5bf4cb131d9c386825d1355add2b1ecc408b37dc2c2334edd7a1a4c9f527e6b594dedcdbf6d949bce2740c3a332e39af1183072a2d068e40d9e9146067a37f
   languageName: node
   linkType: hard
 
